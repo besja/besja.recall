@@ -1,0 +1,10 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser">
+
+
+  <!-- Resource directory for javascripts -->
+  <browser:resourceDirectory name="besja.recall.javascripts" directory="javascripts" />
+  <browser:resourceDirectory name="besja.recall.stylesheets" directory="stylesheets" />
+  <browser:resourceDirectory name="besja.recall.images" directory="images" />
+</configure>

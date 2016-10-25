@@ -1,0 +1,9 @@
+[default]
+title=Send email cp-script
+
+[validators]
+validators=
+
+[actions]
+action.success=traverse_to:string:recall_template
+action.failure=traverse_to:string:feedback_thanks_fail

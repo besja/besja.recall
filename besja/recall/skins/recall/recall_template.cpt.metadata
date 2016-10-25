@@ -1,0 +1,6 @@
+[validators]
+validators=recall_validator
+
+[actions]
+action.success=traverse_to:string:recall_email
+action.failure=traverse_to:string:recall_template

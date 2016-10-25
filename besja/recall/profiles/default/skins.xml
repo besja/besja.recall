@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<object name="portal_skins">
+
+    <object name="recall" meta_type="Filesystem Directory View" directory="besja.recall:skins/recall" />
+
+    <skin-path name="*" based-on="Plone Default">
+        <layer name="recall" insert-after="custom" />
+    </skin-path>
+
+</object>

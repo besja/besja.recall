@@ -1,0 +1,46 @@
+<html
+    xmlns="http://www.w3.org/1999/xhtml"
+    xml:lang="en-US"
+    lang="en-US"
+    i18n:domain="plone"
+    metal:use-macro="here/main_template/macros/master">
+  <body>
+
+    <div metal:fill-slot="title">
+        <tal:ok content="here/feedback_properties/status_ok">
+            Сообщение отправлено
+        </tal:ok>
+    </div>
+    <div metal:fill-slot="main">
+        <tal:primefilelisting condition="exists:here/doc_heading">
+            <div metal:use-macro="here/doc_heading/macros/heading_commmon">
+                <div metal:fill-slot="title">
+                    <tal:ok content="here/feedback_properties/status_ok">
+                        Сообщение отправлено
+                    </tal:ok>
+                </div>
+                <div metal:fill-slot="linkparent"><!--335-->
+                    <a href="" class="link-parent" tal:attributes="href portal/absolute_url" tal:content="here/feedback_properties/parent_up">Вернуться на сайт</a>
+                </div>
+
+            </div>
+        </tal:primefilelisting>
+
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <h3 style="text-align: center;">
+            <tal:ok content="here/feedback_properties/text_ok">
+                Ответ придет на ваш почтовый ящик
+            </tal:ok>
+             - 
+            <a href="/">
+                <tal:email condition="exists:here/REQUEST/email_address" content="here/REQUEST/email_address">EMAIL_ADDRESS</tal:email>
+                <tal:email condition="not:exists:here/REQUEST/email_address">gates@microsoft.com</tal:email>
+            </a>
+        </h3>
+        <p>&nbsp;</p>
+
+    </div>
+  </body>
+
+</html>

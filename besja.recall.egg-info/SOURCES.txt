@@ -1,0 +1,16 @@
+README.txt
+setup.cfg
+setup.py
+besja/__init__.py
+besja.recall.egg-info/PKG-INFO
+besja.recall.egg-info/SOURCES.txt
+besja.recall.egg-info/dependency_links.txt
+besja.recall.egg-info/entry_points.txt
+besja.recall.egg-info/namespace_packages.txt
+besja.recall.egg-info/not-zip-safe
+besja.recall.egg-info/paster_plugins.txt
+besja.recall.egg-info/requires.txt
+besja.recall.egg-info/top_level.txt
+besja/recall/__init__.py
+besja/recall/interfaces.py
+besja/recall/tests.py

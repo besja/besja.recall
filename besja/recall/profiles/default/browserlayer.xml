@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<layers>
+
+    <layer name="RecallLayer" interface="besja.recall.interfaces.IRecallLayer" />
+
+</layers>
