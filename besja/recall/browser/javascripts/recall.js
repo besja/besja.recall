@@ -23,6 +23,7 @@ jQuery(function($){
           $("h2",overlay).html("Ваше сообщение отправлено"); 
           $(".form_desc",overlay).html("Мы перезвоним на указанный<br/>номер через 5 минут");
           $("form",overlay).hide(); 
+          yaCounter27348218.reachGoal('order'); 
 
         }
         if(portalMessage.hasClass('error')) {
