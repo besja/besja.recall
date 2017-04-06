@@ -1,9 +1,7 @@
 .site-ironking {
     position: relative;
 }
-#exposeMask {
-    background-color:rgb(46, 46, 46) !important;
-}
+
 .overlay-recallform {
     width:410px !important;
     left: calc( (100% - 410px) / 2); 
